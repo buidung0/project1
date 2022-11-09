@@ -630,8 +630,7 @@ iframe {
     }
     /* change background-image */
     div#products {
-        /* background-image: url('../imgs/product-desktop.jpg'); */
-        background-image: url('../images/cert-bg3.jpg');
+        background-image: url('https://media.baoquangninh.com.vn/dataimages/202102/original/images1473299_1.jpg');
         background-attachment: fixed;
         background-size: cover;
         height: 500px;

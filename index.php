@@ -59,7 +59,7 @@ if (isset($_SESSION['notification'])) {
 
                 <div id="menu">
                     <div id="logo">
-                        <a href="index.php#about"><img src="imgs/logo.jpg" alt="logo"></a>
+                        <a href="index.php#about"><img src="https://sanhruou.com/media/8387/content/logo-sanh-ruou-2022.png" alt="logo"></a>
                     </div>
 
                     <a href="index.php">Trang chủ</a>
@@ -99,9 +99,8 @@ if (isset($_SESSION['notification'])) {
             <!-- Banner -->
             <div id="banner">
                 <!--Begin banner-->
-                <img src="imgs/logo.jpg" alt="logo-banner" id="logo-img">
                 <p class="welcome"></p>
-                <h1 class="introduction">Chúng Tôi Có Tất Cả Mọi Thứ Tốt Cho Sức Khỏe</h1>
+                    <marquee class="introduction"  scrollamount = '16'>Say rượu còn có lúc tỉnh, còn say em chẳng biết lúc nào tỉnh</marquee>
             </div>
             <!--End banner-->
         </div>
@@ -112,12 +111,12 @@ if (isset($_SESSION['notification'])) {
             <div id="about" class="container">
                 <!--begin about and use home.css-->
                 <div id="about-text" class="col-lg-10 text-center">
-                    <h3 class="text-about">Vài nét về trang trại của chúng tôi</h3>
+                    <h3 class="text-about">Vài nét về cửa hàng của chúng tôi</h3>
                     <!--Create a line to seperate-->
                     <span class="separator"></span>
                     <!--index_style.css-->
-                    <p>Trang trại Star Organic được bắt đầu hoạt động vào năm 1988. Công ty tham gia kinh doanh và sản xuất nhiều loại Sản phẩm hữu cơ và gia vị cho người tiêu dùng trên toàn cầu. Công ty có nhiều bộ sưu tập sản phẩm đa dạng
-                       Ngũ cốc dinh dưỡng, Bột, Gia vị và Gia vị, Dầu nấu ăn, Bột trái cây, Sản phẩm nông nghiệp, Dầu, Lúa mì và Bột mì, Gạo và các sản phẩm từ gạo, v.v.
+                    <p>Cửa hàng được bắt đầu hoạt động vào năm 1988. Công ty tham gia kinh doanh và sản xuất nhiều loại Sản phẩm đồ uống cho người tiêu dùng trên toàn cầu. Công ty có nhiều bộ sưu tập sản phẩm đa dạng
+                      Bia ngoại, rượu vang cao cấp, rượu ngoại, Bia cao cấp và các sản phẩm từ bia rượu, v.v.
                     </p>
                 </div>
             </div>
