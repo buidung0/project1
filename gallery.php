@@ -12,7 +12,15 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <style>
     body {
-      background-color: #99FFFF;
+      background-color: #390023;
+    }
+
+    .title{
+      color: #b7a054;
+      font-size: 25px;
+      margin-top: 5%;
+      text-align: center;
+      margin-left: 0;
     }
 
     /* .items a {
@@ -50,7 +58,7 @@
 
 <body>
   <div>
-    <h2>BỘ SƯU TẬP ẢNH CỦA STAR ORGANIC</h2>
+    <h2 class="title">BỘ SƯU TẬP</h2>
   </div>
   <div class="wrapper">
     <!-- filter Items -->
@@ -63,7 +71,7 @@
         foreach ($category as $value) : ?>
         <span class="item" data-name="<?=$value['category']?>">  <?= $value['category'] ?> </span>
         <?php endforeach; $conn->close(); ?>
-        <a class="item" href="index.php">Trang chủ</a>
+        <a class="item item-home" href="index.php">Trang chủ</a>
       </div>
     </nav>
     

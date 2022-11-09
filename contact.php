@@ -59,7 +59,7 @@ include_once 'admin/adminFunction.php';
 
                 <div id="menu">
                     <div id="logo">
-                        <a href="index.php#about"><img src="imgs/logo.jpg" alt="logo"></a>
+                        <a href="index.php#about"><img src="https://sanhruou.com/media/8387/content/logo-sanh-ruou-2022.png" alt="logo"></a>
                     </div>
 
                     <a href="index.php">Trang chủ</a>

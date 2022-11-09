@@ -3,7 +3,7 @@
 define('HOST', 'localhost');
 define('USER', 'root');
 define('PWD', '');
-define('DB', 'datadoan');
+define('DB', 'datadoan1');
 
 function connect() {
     $conn = new mysqli(HOST, USER, PWD, DB);

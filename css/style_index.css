@@ -136,7 +136,7 @@ button.hamburger.toggle span::after {
     width: auto;
     height: 40px;
     text-decoration: none;
-    color: white;
+    color: #b7a054;
     font-size: 2vw;
     font-weight: 700;
     /* center */
@@ -255,7 +255,7 @@ div#banner {
 .welcome {
     /* font-family: 'Tangerine', sans-serif; */
     /*font-family: 'Brush Script MT';*/
-    color: #0d95e4;
+    color: #fff;
     font-size: 2.5em;
     font-weight: bold;
     letter-spacing: 5px;
@@ -363,7 +363,7 @@ div#foot {
     }
     
     #menu a {
-        color: white;
+        color: #b7a054;
         /* center horizontally and vertically */
         display: inline-flex;
         justify-content: center;
@@ -399,6 +399,7 @@ div#foot {
         width: 100%;
         margin: 0;
         padding: 0;
+        color: #b7a054;
 
     }
     span.cheveron {
@@ -406,6 +407,7 @@ div#foot {
         width: 1vw;
         height: 1vw;
         bottom: 5px;
+        color: #b7a054;
     }
 
     /* style subitem menu */
@@ -415,7 +417,8 @@ div#foot {
         overflow: hidden;
         margin: 0;
         padding: 0;
-        background-color: rgba(47, 135, 173, .7);
+        background-color: #ccc;
+        opacity: 0.8;
         position: absolute;
         top: 80px;
         text-align: center;
@@ -434,11 +437,11 @@ div#foot {
     }
     /* on and hover efect */
     #menu a.on {
-        color: yellow;
+        color: #b7a054;
         background: none;
     }
     #menu a:hover {
-        color: rgb(43, 255, 0);
+        color: #872c1b;
         transform: scale(1.2);
     }
 

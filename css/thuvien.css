@@ -5,12 +5,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-h2{
-  color: #007bff;
-  font-size: 25px;
-  margin-top: 5%;
-  margin-left: 33%;
-}
+
 ::selection{
   color: #fff;
   /* background: #007bff; */
@@ -38,9 +33,9 @@ body{
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  color: #007bff;
+  color: #b7a054;
   border-radius: 50px;
-  border : 2px solid  #007bff;
+  border : 2px solid  #ccc;
   transition: all 0.3s ease;
   margin-right: 30px;
   width: 100%;
@@ -48,8 +43,8 @@ body{
 
 .items span.active,
 .items span:hover{
-  color: #fff;
-  background: #007bff;
+  color: #ccc;
+  background: #872c1b;
 }
 
 .items a{
@@ -57,11 +52,12 @@ body{
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  color: #007bff;
+  color: #b7a054;
   border-radius: 50px;
-  border: 2px solid #FF0000;
+  border: 2px solid #ccc;
   transition: all 0.3s ease;
   margin-left: 100px;
+  text-decoration: none;
 }
 .items a.active,
 .items a:hover{

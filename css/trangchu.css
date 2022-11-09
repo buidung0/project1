@@ -10,7 +10,7 @@
 }
 #about-text h3 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #e15f41;
+    color: #390023;
     font-size: 3em;
     text-align: center;
 }
@@ -32,7 +32,7 @@
     text-align: center;
     font-size: 4em;
     font-weight: normal;
-    color: red;
+    color: #390023;
     margin-top: 200px;
 }
 
@@ -630,7 +630,7 @@ iframe {
     }
     /* change background-image */
     div#products {
-        background-image: url('https://media.baoquangninh.com.vn/dataimages/202102/original/images1473299_1.jpg');
+        background-image: url('https://www.victoriavn.com/images/thuviensuckhoe/VHC-ruou_bia.jpg');
         background-attachment: fixed;
         background-size: cover;
         height: 500px;
@@ -662,7 +662,7 @@ iframe {
     #products figure img {
         display: block;
         max-width: 100%;
-        height: auto;
+        height: 233px;
         transition: .5s;
     }
     #products figure img:hover {
@@ -680,7 +680,7 @@ iframe {
     /* gallery section */
     div.gallery-desktop {
         display: block;
-        background: url("../imgs/gallery-bg-desktop.jpg");
+        background: url("https://cdnmedia.baotintuc.vn/Upload/c2tvplmdloSDblsn03qN2Q/files/2020/09/05/ruou-vang-italy-5920.jpeg");
         background-size: cover;
         background-attachment: fixed;
     }
@@ -845,7 +845,7 @@ iframe {
 }
 
 .snip1582:before {
-  border-color: blue;
+  border-color: #390023;
   border-top-width: 2px;
   left: 0px;
   top: -5px;
@@ -853,7 +853,7 @@ iframe {
 
 .snip1582:after {
   border-bottom-width: 2px;
-  border-color: blue;
+  border-color: #390023;
   bottom: -5px;
   right: 0px;
 }
@@ -861,7 +861,7 @@ iframe {
 .snip1582:hover,
 .snip1582.hover {
   background-color: #c47135;
-  color:blue;
+  color:#390023;
 }
 
 .snip1582:hover:before,

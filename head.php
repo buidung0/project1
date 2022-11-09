@@ -10,7 +10,7 @@
 
                 <div id="menu">
                     <div id="logo">
-                        <a href="index.php"><img src="imgs/logo.jpg" alt="logo"></a>
+                        <a href="index.php"><img src="https://sanhruou.com/media/8387/content/logo-sanh-ruou-2022.png" alt="logo"></a>
                     </div>
 
                     <a href="index.php">Trang chủ</a>
@@ -52,28 +52,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="slide-img">
-                            <img src="imgs/rice-bg.jpg" alt="">
-                        </div>
-                        <div class="slide-caption">
-                            <div class="content">
-                                <h3>Bia và nước có cồn</h3>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide-img">
-                            <img src="imgs/bia.jpg" alt="">
-                        </div>
-                        <div class="slide-caption">
-                            <div class="content">
-                                <h3>Coktail</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide-img">
-                            <img src="imgs/condiments-bg.jpg" alt="">
+                            <img src="https://amthucphuongtay.com/wp-content/uploads/darroze-bas-armagnac.jpg" alt="">
                         </div>
                         <div class="slide-caption">
                             <div class="content">
@@ -84,7 +63,17 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="slide-img">
-                            <img src="imgs/bia.jpg" alt="">
+                            <img src="https://vcdn1-suckhoe.vnecdn.net/2022/06/30/ruou-bia-7260-1656551943.png?w=0&h=0&q=100&dpr=2&fit=crop&s=vcKBz3li6HXjt6JIpptZFg" alt="">
+                        </div>
+                        <div class="slide-caption">
+                            <div class="content">
+                                <h3>Bia</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="https://vnaroma.com/wp-content/uploads/2020/10/gia-vi-san-xuat-nuoc-giai-khat-co-gas-02.jpg" alt="">
                         </div>
                         <div class="slide-caption">
                             <div class="content">

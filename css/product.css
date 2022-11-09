@@ -54,7 +54,8 @@ body{
     top: 272px;
     height: 15%;
     width: 100%;
-    background-color: rgba(82, 129, 17, .6);
+    background-color: #390023;
+    opacity: 0.5;
     z-index: 100;
 }
 .slide-caption .content {
@@ -70,7 +71,7 @@ body{
     font-family: "Raleway", sans-serif;
     font-size: 5vw; /* responsize font size */
     font-weight: 900;
-    color: #111;
+    color: #fff;
 }
 .slide-caption .content p {
     font-family: "Raleway", sans-serif;

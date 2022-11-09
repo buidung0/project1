@@ -13,7 +13,7 @@ if (isset($_SESSION['notification'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nông Trại Star Organic</title>
+    <title>Cửa hàng</title>
     <!-- jquery cdn-->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="icon" type="image/x-icon" href="css/imgs/logo.png" style="border-radius: 15px ;" >
@@ -134,37 +134,37 @@ if (isset($_SESSION['notification'])) {
                 <div class="wrapper row" id="for_desktop">
                     <figure id="product1" class="col-md-3">
                         <div class="img-container">
-                            <a href="product.php?id=1#prd"><img src="imgs/fruit.jpg" alt="" class="img-responsive"></a>
+                            <a href="product.php?id=1#prd"><img src="https://wallpapers.com/images/thumb/ice-cube-and-beer-cans-z3q5nhufmjlxrmk2.jpg" alt="" class="img-responsive"></a>
                         </div>
                         <figcaption>
-                            <h3>Hoa quả</h3>
+                            <h3>Bia lon</h3>
                             <a href="product.php?id=1#prd" class="snip1582">Xem Thêm</a>
                         </figcaption>
                     </figure>
                     <figure id="product2" class="col-md-3">
                         <div class="img-container">
-                            <a href="product.php?id=2#prd"><img src="imgs/rice.jpg" alt="" class="img-responsive"></a>
+                            <a href="product.php?id=2#prd"><img src="https://wallpapers.com/images/thumb/heineken-beer-bottles-cooler-u0dhtq6vxrn2qmrv.jpg" alt="" class="img-responsive"></a>
                         </div>
                         <figcaption>
-                            <h3>Gạo</h3>
+                            <h3>Bia chai</h3>
                             <a href="product.php?id=2#prd" class="snip1582">Xem Thêm</a>
                         </figcaption>
                     </figure>
                     <figure id="product3" class="col-md-3">
                         <div class="img-container">
-                            <a href="product.php?id=4#prd"><img src="imgs/oils.jpg" alt="" class="img-responsive"></a>
+                            <a href="product.php?id=4#prd"><img src="https://wallpapers.com/images/thumb/grocery-store-colorful-sodas-pw7bl8tz02wms8sz.jpg" alt="" class="img-responsive"></a>
                         </div>
                         <figcaption>
-                            <h3>Dầu ăn</h3>
+                            <h3>Nước giải khát</h3>
                             <a href="product.php?id=4#prd" class="snip1582">Xem Thêm</a>
                         </figcaption>
                     </figure>
                     <figure id="product4" class="col-md-3">
                         <div class="img-container">
-                            <a href="product.php?id=3#prd"><img src="imgs/condiments.jpg" alt="" class="img-responsive"></a>
+                            <a href="product.php?id=3#prd"><img src="https://wallpapers.com/images/thumb/bar-alcoholic-drinks-6fj3udabe3l4smcp.jpg" alt="" class="img-responsive"></a>
                         </div>
                         <figcaption>
-                            <h3>Các loại gia vị</h3>
+                            <h3>Rượu</h3>
                             <a href="product.php?id=3#prd" class="snip1582">Xem Thêm</a>
                         </figcaption>
                     </figure>
@@ -176,40 +176,38 @@ if (isset($_SESSION['notification'])) {
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="image-wrapper">
-                                <img src="imgs/fruit.jpg" alt="">
+                                <img width="500px" height="374px"  src="https://wallpapers.com/images/thumb/ice-cube-and-beer-cans-z3q5nhufmjlxrmk2.jpg" alt="">
                             </div>
                             <div class="product-details">
-                                <h3>Trái cây</h3>
-
+                                <h3>Bia lon</h3>
                                 <a href="fruit-product.php" class="product-btn">Xem Thêm</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="image-wrapper">
-                                <img src="imgs/rice.jpg" alt="">
+                                <img width="500px" height="374px" src="https://wallpapers.com/images/thumb/heineken-beer-bottles-cooler-u0dhtq6vxrn2qmrv.jpg" alt="">
                             </div>
                             <div class="product-details">
-                                <h3 style="color: #111;">Gạo</h3>
-
+                                <h3>Bia chai</h3>
                                 <a href="rice-rice-product.php" class="product-btn">Xem Thêm</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="image-wrapper">
-                                <img src="imgs/oils.jpg" alt="">
+                                <img width="500px" height="374px" src="https://wallpapers.com/images/thumb/grocery-store-colorful-sodas-pw7bl8tz02wms8sz.jpg" alt="">
                             </div>
                             <div class="product-details">
-                                <h3>Dầu ăn</h3>
+                                <h3>Nước giải khát</h3>
 
                                 <a href="oils-product.php" class="product-btn">Xem Thêm</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="image-wrapper">
-                                <img src="imgs/condiments.jpg" alt="">
+                                <img width="500px" height="374px" src="https://wallpapers.com/images/thumb/bar-alcoholic-drinks-6fj3udabe3l4smcp.jpg" alt="">
                             </div>
                             <div class="product-details">
-                                <h3>Gia vị</h3>
+                                <h3>Rượu</h3>
 
                                 <a href="condiments-product.php" class="product-btn">Xem Thêm</a>
                             </div>
@@ -221,10 +219,10 @@ if (isset($_SESSION['notification'])) {
                 </div>
             </div><!-- end product section-->
 
-            <span class="separator"></span>
+            <!-- <span class="separator"></span> -->
 
             <!-- Special offer -->
-            <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
+            <!-- <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
                 <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
                     <h3 class="title text-center mb-lg-5 mb-md-4  mb-sm-4 mb-3">Ưu đãi đặc biệt</h3>
                     <span class="separator"></span>
@@ -250,64 +248,64 @@ if (isset($_SESSION['notification'])) {
                                 <a href="product.php?id=4#prd" class="snip1582">Mua Ngay</a>
                             </div>
                         </div>
-                        <!-- Sale off -->
-                        <div class="toys-grids-upper">
+                        Sale off -->
+                        <!-- <div class="toys-grids-upper">
                             <div class="about-toys-off">
                                 <h2>Giảm ngay <span>50%</span> 11/11</h2>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <!-- Begin gallery for desktop -->
              <div id="gallery" class="container-fluid">
                 <div id="gallery-text">
                     <span class="separator"></span>
-                    <h3>Cảnh Đẹp Nông Trại</h3>
+                    <h3>Các sản phẩm nổi bật</h3>
                     <span class="separator"></span>
                 </div>
                 <div class="gallery-desktop">
                     <div class="row">
                         <div class="box col-md-3 col-sm-3">
                             <div class="imgBox">
-                                <img src="imgs/cow.jpg" alt="" class="img-responsive">
+                                <img src="imgs/634a394853a79634a38a2cac99lonsaigon.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="content">
-                                <h2>Bò Sữa</h2>
-                                <p>Những chú bò khỏe mạnh</p>
+                                <h2>Bia Sài Gòn</h2>
+                                <p>Bia Sài Gòn là thương hiệu thuộc tổng Công ty Cổ phần SABECO</p>
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
 
                         <div class="box col-md-3 col-sm-3">
                             <div class="imgBox">
-                                <img src="imgs/oilve.jpg" alt="" class="img-responsive">
+                                <img src="imgs/tiger.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="content">
-                                <h2>Cây Ô Lưu</h2>
-                                <p>Bạn có muốn một làn da đẹp?</p>
+                                <h2>Bia Tiger</h2>
+                                <p>Tiger Beer là thương hiệu bia của Singapore</p>
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
 
                         <div class="box col-md-3 col-sm-3">
                             <div class="imgBox">
-                                <img src="imgs/farmer.jpg" alt="" class="img-responsive">
+                                <img src="imgs/634a60c6ca5ca4-chai-strongbow-dau-330ml-202205211844210722_300x300.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="content">
-                                <h2>Người Nông Dân</h2>
-                               
+                                <h2>Strongbow</h2>
+                                <p>Strongbow là loại rượu táo hàng đầu thế giới </p>
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
                         <div class="box col-md-3 col-sm-3">
                             <div class="imgBox">
-                                <img src="imgs/seed.jpg" alt="" class="img-responsive">
+                                <img src="imgs/634a7500afaef12-chai-nuoc-ngot-mirinda-huong-cam-390ml-202210081742413804_300x300.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="content">
-                                <h2>Nguyên Liệu</h2>
-                                
+                                <h2>Mirinda</h2>
+                                <p>thương hiệu nước ngọt của PepsiCo</p>
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
@@ -315,41 +313,41 @@ if (isset($_SESSION['notification'])) {
                     <div class="row">
                         <div class="box col-md-3 col-sm-3">
                             <div class="imgBox">
-                                <img src="imgs/tractor.jpg" alt="" class="img-responsive">
+                                <img src="imgs/634a74526cffathung-12-lon-nuoc-ngot-coca-cola-sleek-320ml-202210082320095968_300x300.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="content">
-                                <h2>Thiết bị hiện đại</h2>
-                            
+                                <h2>Coca-Cola</h2>
+                             <p>Coca-Cola là một thương hiệu nước ngọt có ga chứa nước cacbon dioxide bão hòa</p>
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
                         <div class="box col-md-3 col-sm-3">
                             <div class="imgBox">
-                                <img src="imgs/soil.jpg" alt="" class="img-responsive">
+                                <img src="imgs/634a6b1535185ruou-soju-good-day-vi-nho-125-chai-360ml-202210101040523568_300x300.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="content">
-                                <h2>Mầm cây</h2>
-                                
+                                <h2>Soju</h2>
+                                <p>Soju là loại đồ uống có cồn chưng cất không màu, trong suốt có xuất xứ từ bán đảo Triều Tiên</p>
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
                         <div class="box col-md-3 col-sm-3">
                             <div class="imgBox">
-                                <img src="imgs/peace.jpg" alt="" class="img-responsive">
+                                <img src="imgs/634a6ee4271e3ruou-vodka-cruiser-bold-berry-blend-46-chai-275ml-202210101026523339_300x300.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="content">
-                                <h2>Đồng Lúa</h2>
-                            
+                                <h2>Vodka</h2>
+                                <p>Vodka là một loại đồ uống có cồn được chưng cất có nguồn gốc từ Ba Lan và Nga</p>
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
                         <div class="box col-md-3 col-sm-3">
                             <div class="imgBox">
-                                <img src="imgs/fresh.jpg" alt="" class="img-responsive">
+                                <img src="imgs/lonhaniken.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="content">
-                                <h2>Trái cây</h2>
-                                
+                                <h2>Heineken</h2>
+                                <p>Heineken nổi tiếng với chai màu xanh lá cây đặc trưng và ngôi sao đỏ.</p>
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
@@ -362,81 +360,87 @@ if (isset($_SESSION['notification'])) {
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" id="gallery-slide">
                             <div class="gallery-imgBox">
-                                <img src="imgs/cow.jpg" alt="">
+                            <img src="imgs/634a394853a79634a38a2cac99lonsaigon.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="img-details">
                                 <h2>Happy cow</h2>
-                                <p>Don't you see these healthy cow?</p>
+                               
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
                         <div class="swiper-slide" id="gallery-slide">
                             <div class="gallery-imgBox">
-                                <img src="imgs/oilve.jpg" alt="">
+                            <img src="imgs/tiger.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="img-details">
                                 <h2>Olive trees</h2>
-                                <p>I know you want perfect skin, ma'am</p>
+                             
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
                         <div class="swiper-slide" id="gallery-slide">
                             <div class="gallery-imgBox">
-                                <img src="imgs/farmer.jpg" alt="">
+                            <img src="imgs/634a60c6ca5ca4-chai-strongbow-dau-330ml-202205211844210722_300x300.jpg" alt="" class="img-responsive">
+
                             </div>
                             <div class="img-details">
                                 <h2>Experienced farmers</h2>
-                                <p>Without them, we wouldn't be where we are today</p>
+                                
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
                         <div class="swiper-slide" id="gallery-slide">
                             <div class="gallery-imgBox">
-                                <img src="imgs/seed.jpg" alt="">
+                            <img src="imgs/634a7500afaef12-chai-nuoc-ngot-mirinda-huong-cam-390ml-202210081742413804_300x300.jpg" alt="" class="img-responsive">
+
                             </div>
                             <div class="img-details">
                                 <h2>Good seeds</h2>
-                                <p>We have all kinds of seeds all over the country and some parts of the world</p>
+                               
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
                         <div class="swiper-slide" id="gallery-slide">
                             <div class="gallery-imgBox">
-                                <img src="imgs/tractor.jpg" alt="">
+                            <img src="imgs/634a74526cffathung-12-lon-nuoc-ngot-coca-cola-sleek-320ml-202210082320095968_300x300.jpg" alt="" class="img-responsive">
+
                             </div>
                             <div class="img-details">
                                 <h2>Modern Equipment</h2>
-                                <p>The most modern equipment is always updated by us every day</p>
+                               
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
                         <div class="swiper-slide" id="gallery-slide">
                             <div class="gallery-imgBox">
-                                <img src="imgs/soil.jpg" alt="">
+                            <img src="imgs/634a6b1535185ruou-soju-good-day-vi-nho-125-chai-360ml-202210101040523568_300x300.jpg" alt="" class="img-responsive">
+
                             </div>
                             <div class="img-details">
                                 <h2>Perfect soil</h2>
-                                <p>Good soils and minerals for crops make up the majority of our farm area</p>
+                                
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
                         <div class="swiper-slide" id="gallery-slide">
                             <div class="gallery-imgBox">
-                                <img src="imgs/peace.jpg" alt="">
+                            <img src="imgs/634a6ee4271e3ruou-vodka-cruiser-bold-berry-blend-46-chai-275ml-202210101026523339_300x300.jpg" alt="" class="img-responsive">
+
                             </div>
                             <div class="img-details">
                                 <h2>Peaceful Place</h2>
-                                <p>This scene helps us farmers relax after hours of hard work, and maybe you too.</p>
+                                
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
                         <div class="swiper-slide" id="gallery-slide">
                             <div class="gallery-imgBox">
-                                <img src="imgs/fresh.jpg" alt="">
+                            <img src="imgs/lonhaniken.jpg" alt="" class="img-responsive">
+
                             </div>
                             <div class="img-details">
                                 <h2>Fresh & Clean Fruits</h2>
-                                <p>Our pride is when we can create products like this</p>
+                              
                                 <a href="gallery.php" class="gallery-btn">Tìm hiểu thêm</a>
                             </div>
                         </div>
@@ -451,73 +455,11 @@ if (isset($_SESSION['notification'])) {
                     -->
             <!-- Begin feedback -->
             <div id="feedback" class="container-fluid">
-                <div class="feedback-heading">
-                    <span class="separator"></span>
-                    <h3>Thành Viên</h3>
-                    <span class="separator"></span>
-                </div>
-                <div class="feedback-container row">
-                    <!-- Begin box 1 -->
-                    <div class="feedback-box col-md-3 ">
-                        <div class="icon">
-                            <img src="imgs/joker.jpg" alt=" avatar" class="ava">
-                        </div>
-                        <div class="feedback-text">
-                            <h3>Phạm Quang Đạt</h3>
-                            <p>Tôi cảm thấy ghen tị với những người nông dân ở đây khi hàng ngày nhìn thấy những khung cảnh yên bình này </p>
-                        </div>
-                    </div><!-- end box 1-->
-
-                    <!-- Begin box 2 -->
-                    <div class="feedback-box col-md-3 ">
-                        <div class="icon">
-                            <img src="imgs/namne.jpg" alt=" avatar" class="ava">
-                        </div>
-                        <div class="feedback-text">
-                            <h3>Vũ Phương Nam</h3>
-                            <p>Nam Nóng Nảy</p>
-                        </div>
-                    </div><!-- end box 2-->
-
-                    <!-- Begin box 3 -->
-                    <div class="feedback-box col-md-3 ">
-                        <div class="icon">
-                            <img src="" alt="Ho Duc avatar" class="ava">
-                        </div>
-                        <div class="feedback-text">
-                            <h3>Vũ Hồ Đức</h3>
-                            <p>Chào mọi người mình là Đức</p>
-
-                        </div>
-                    </div><!-- end box 3-->
-
-                    <!-- Begin box 4 -->
-                    <div class="feedback-box col-md-3 ">
-                        <div class="icon">
-                            <img src="" alt="Dương Anh Linh avatar" class="ava">
-                        </div>
-                        <div class="feedback-text">
-                            <h3>Dương Anh Linh</h3>
-                            <p>Trang web này luôn giải đáp mọi thắc mắc của khách hàng một cách nhiệt tình và chu đáo, tôi rất hài lòng về điều đó</p>
-                        </div>
-                    </div><!-- end box 4-->
-                    <!-- Begin box 5 -->
-                    <div class="feedback-box col-md-3 ">
-                        <div class="icon">
-                            <img src="" alt="dung avatar" class="ava">
-                        </div>
-                        <div class="feedback-text">
-                            <h3>Bùi Công Dũng</h3>
-                            <p>Chào mọi người mình là Dũng</p>
-                        </div>
-                    </div><!-- end box 5-->
-
-                </div>
                 <!--End feedback-container -->
                 <div id="feedback-button">
                     <a href="contact.php" class="snip1582">Hãy cho chúng tôi biết bạn cảm thấy thế nào?</a>
                 </div>
-            </div> <!-- end feedback section-->
+            </div>
 
 
             <!-- Begin certificate -->
@@ -571,7 +513,7 @@ if (isset($_SESSION['notification'])) {
                     <h4>Có Sức Khỏe</h4>
                     <h4>Là Có Tất Cả</h4>
                     <span class="separator"></span>
-                    <p style="text-align:center">Với những người nông dân giàu kinh nghiệm, trang thiết bị hiện đại và giống cây trồng được chọn lọc kỹ lưỡng, chúng tôi cam kết chất lượng sản phẩm khi đến tay người tiêu dùng.</p>
+                    <p style="text-align:center">Với kinh nghiệm, trang thiết bị hiện đại và sản phẩm được chọn lọc kỹ lưỡng, chúng tôi cam kết chất lượng sản phẩm khi đến tay người tiêu dùng.</p>
                     <span class="separator"></span>
                     <div class="certificate-container">
                         <img src="imgs/brc-cc.png" alt="certificate 1">
