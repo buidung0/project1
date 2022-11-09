@@ -146,15 +146,16 @@ if (isset($_POST['search-text'])) {
                                 </td>
                                 <td>
                                     <input type="hidden" class='price' value="<?= $item['price'] ?>">
-                                    <span class='item-price'><?= $item['price'] ?></span>,000 VNĐ
+                                    <span class='item-price'><?= $item['price'] ?></span>
+                                    <span>,000 VNĐ</span>
                                 </td>
                                 <td>
                                     <input style='max-width:50px' name='itemQuantity' type='number' min='1' step='1' value='<?= $item['qtt'] ?>' class='quantity-input' data-id='<?= $item['id'] ?>'>
                                 </td>   
                                 <td>
                                     <input type='hidden' value='<?= $item['subtotal']?>' class='subtotal'>
-                                    <span class='visible-subtotal'><?= $item['subtotal']?></span>,000 VND
-                               
+                                    <span class='visible-subtotal'><?= $item['subtotal']?></span>
+                                    <span>,000 VNĐ</span>
                                 </td>
                                 <td>
                                     <button data-id='<?= $item['id'] ?>' class='remove btn btn-danger'>Xóa</button>
@@ -166,7 +167,8 @@ if (isset($_POST['search-text'])) {
                 </tbody>
                 <tfoot>
                     <tr class="total-row">
-                        <td class="toltal-price" colspan="4">Tổng: <span id='sum'><?= isset($_SESSION['totalCart']) ? number_format($_SESSION['totalCart'],0) : '' ?></span>,000 VNĐ</td>
+                        <td class="toltal-price" colspan="4">Tổng: <span id='sum'><?= isset($_SESSION['totalCart']) ? number_format($_SESSION['totalCart'],0) : '' ?></span>
+                        <span>,000 VNĐ</span></td>
                         <td></td>
                     </tr>
                 </tfoot>
